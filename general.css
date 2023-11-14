@@ -1,0 +1,34 @@
+body{
+    margin: 0 ;
+}
+div
+{
+    font-family: Roboto,Arial;
+    margin: 0;
+    
+}
+p {
+    font-family: Roboto , Arial ;
+    margin: 0;
+    display: inline;
+}
+.third-screen-title{
+    display: flex ;
+    flex: 1;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center ;
+    height: 100px;
+    width: 100% ;   
+    padding-bottom: 5%;
+}
+.third-screen-title span{
+    color: blue ;
+}
+section{
+    margin: 0;
+}
+ul{
+    padding: 0 ;
+    margin: 0;
+}

@@ -1,0 +1,50 @@
+.forth-section {
+    width: 90%;
+    height: 280px;
+    background: linear-gradient(to right,rgba(184, 203, 248, 0.4) 0%, rgba(225, 233, 252, 0.4));
+    margin-left: 60px; 
+    display: grid ;
+    grid-template-columns: 1fr 1fr ; 
+    border-radius: 10px;
+}
+.forth-section img{
+    width: 70%;
+}
+.first-half{
+    display: flex ;
+    flex-direction: column;  
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 6%;
+    border-radius: 10px;
+    height: 75%;
+}
+.first-half span{
+    color:  rgb(51, 106, 234);
+}
+.first-half p{
+    margin-bottom: 6%;
+    color: rgb(66, 66, 66);
+    line-height: 28px ;
+}
+.first-half button{
+    background-color: rgb(51, 106, 234);
+    max-width: 115px;
+    padding: 10px 20px;
+    text-wrap: nowrap;
+    border: none;
+    cursor: pointer;
+    color: white ;
+    font-weight: 700 ;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.first-half button:hover{
+    background-color: rgb(38, 82, 185);
+}
+.second-half{
+    display: flex ;
+    align-items: center ;
+    justify-content: center;
+    height: 85%;
+}

@@ -1,0 +1,64 @@
+.third-screen{
+    height: 75vh;
+    width: 100% ;
+    position: relative; 
+}
+.Benefits{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex ;
+    flex: 0.5;
+    height: 100%;
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+
+}
+.freepik-image img{
+    width: 90%;
+}
+.sub-grid{
+    margin-top: 6%;
+    height: 50%;
+    display: grid ;
+    grid-template-columns: 50px 350px; 
+    column-gap: 3%;
+    row-gap: 16%;
+}
+.sub-grid img{
+    width: 100%;
+}
+.benefits-info{
+    display: flex ;
+    flex-direction: column ;
+}
+.benefits-info span{
+    font-size: large ;
+    font-family: Roboto,Arial, Helvetica, sans-serif ;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #424242;
+}
+.benefits-info p{  
+    color: rgb(131, 131, 131);
+    font-size: small;
+    line-height: 20px;
+}
+.third-screen button{
+    position: absolute ;
+    left: 50%;
+    top: 70%;
+    margin-left: 20px ;
+    padding: 10px 24px;
+    font-size: 15px;
+    background-color: rgb(254, 182, 2);
+    border-radius: 3px;
+    border: none;
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.third-screen button:hover{
+    background-color:rgb(254, 145, 2) ;
+}
